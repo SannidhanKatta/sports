@@ -71,7 +71,7 @@ const EventCard = ({ event }: { event: typeof sportsEvents[0] }) => (
                         </ShimmerButton>
                     )}
                 </Link>
-                {event.hasBrochure && (
+                {event.hasBrochure && event.brochureLink && (
                     <Link href={event.brochureLink} target="_blank">
                         <ShimmerButton className="bg-emerald-600 hover:bg-emerald-700">
                             View Brochure
