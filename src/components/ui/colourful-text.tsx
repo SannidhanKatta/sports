@@ -23,7 +23,7 @@ export function ColourfulText({ text }: { text: string }) {
         }, 5000);
 
         return () => clearInterval(interval);
-    }, []);
+    }, [gradients]);
 
     return (
         <div className="font-black tracking-tighter font-['Russo_One']">

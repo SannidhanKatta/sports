@@ -14,15 +14,6 @@ export default function Hero() {
         "/bg-5.jpg",
     ];
 
-    const [sliderHeight, setSliderHeight] = useState('100vh');
-
-    const scrollToEvents = () => {
-        const eventsSection = document.getElementById('events-section');
-        if (eventsSection) {
-            eventsSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-
     return (
         <div className="relative w-full">
             <ImagesSlider images={images}>

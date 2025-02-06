@@ -1,13 +1,14 @@
 import { cn } from "@/lib/utils";
 import { useRef } from "react";
 
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
+    children: React.ReactNode;
+}
+
 export const GlareCard = ({
     children,
     className,
-}: {
-    children: React.ReactNode;
-    className?: string;
-}) => {
+}: Props) => {
     const isPointerInside = useRef(false);
     const refElement = useRef<HTMLDivElement>(null);
     const state = useRef({

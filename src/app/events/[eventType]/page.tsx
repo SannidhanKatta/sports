@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { useParams } from "next/navigation";
 import { FocusCards } from "@/components/ui/focus-cards";
 
