@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Lilita_One } from "next/font/google";
+import { Rowdies } from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -10,6 +12,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const lilitaOne = Lilita_One({
+  subsets: ['latin'],
+  weight: '400',
+});
+
+const rowdies = Rowdies({
+  subsets: ['latin'],
+  weight: '400',
 });
 
 export const metadata: Metadata = {
@@ -25,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${rowdies.variable} ${lilitaOne.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
