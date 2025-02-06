@@ -10,59 +10,59 @@ const eventData = {
         images: [
             {
                 url: "/Nat-1.jpg",
-                caption: "P. BHASKER – 22675A0101 –B. TECH – CIVIL – 4/4 Participated CHESS (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "P. BHASKER – 22675A0101 –B. TECH – CIVIL – 4/4 Participated CHESS (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-2.png",
-                caption: "K. HARSHAVARDHAN – 21671A7318 –B. TECH – AI&ML – 4/4 Participated VOLLEYBALL (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "K. HARSHAVARDHAN – 21671A7318 –B. TECH – AI&ML – 4/4 Participated VOLLEYBALL (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-3.png",
-                caption: "P. CHANDRA VAMSHI– 21671A1925 –B. TECH - ECM – 4/4 Participated WRESTLING (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "P. CHANDRA VAMSHI– 21671A1925 –B. TECH - ECM – 4/4 Participated WRESTLING (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-4.jpg",
-                caption: "V. SANTHOSH– 24675A0311 –B. TECH - MEC – 2/4 Participated WRESTLING (Men) got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "V. SANTHOSH– 24675A0311 –B. TECH - MEC – 2/4 Participated WRESTLING (Men) got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-5.png",
-                caption: "P. VAISHNAVI – 22671A1934 –B. TECH - ECM - III/IV Participated KABADDI (Women)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "P. VAISHNAVI – 22671A1934 –B. TECH - ECM - III/IV Participated KABADDI (Women)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-6.jpg",
-                caption: "V. RUCHITHA – 22671A0455 –B. TECH - ECE - III/IV Participated TENNIS (Women)got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "V. RUCHITHA – 22671A0455 –B. TECH - ECE - III/IV Participated TENNIS (Women)got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-7.jpg",
-                caption: "G. HARSHA VARDHAN- 21671A7318 - B TECH – AI&ML- 3/4 Participated in VOLLEYBALL (Men) got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "G. HARSHA VARDHAN- 21671A7318 - B TECH – AI&ML- 3/4 Participated in VOLLEYBALL (Men) got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-8.jpg",
-                caption: "RATHOD VASANTH - 20671A0466 – B TECH - CSE-3/4 Participated in BASEBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "RATHOD VASANTH - 20671A0466 – B TECH - CSE-3/4 Participated in BASEBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-9.png",
-                caption: "RATHOD BANTHILAL - 20671A0466 – B TECH - ECE-4/4 Participated in BASEBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "RATHOD BANTHILAL - 20671A0466 – B TECH - ECE-4/4 Participated in BASEBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-10.jpg",
-                caption: "B. UDBHAV ROY- 20671A0203 - B TECH - EEE- 4/4 Participated in KABADDI (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "B. UDBHAV ROY- 20671A0203 - B TECH - EEE- 4/4 Participated in KABADDI (Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-11.png",
-                caption: "K. KEERTHANA - 21671A7220-AI&DS -3/4, Selected for 47th Senior National Throwball Championship-2024., Telangana State Throwball Association, Hyderabad."
+                caption: "K. KEERTHANA - 21671A7220-AI&DS -3/4, Selected for 47th Senior National Throwball Championship-2024., Telangana State Throwball Association, HYD."
             },
             {
                 url: "/Nat-12.png",
-                caption: "B. SRAVAN KUMAR – 18671A0150 -  CIVIL- 4/4 Participated in VOLLEYBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "B. SRAVAN KUMAR – 18671A0150 -  CIVIL- 4/4 Participated in VOLLEYBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-13.jpg",
-                caption: "K. VINOD– 20671A0117 -  CIVIL- 3/4 Participated in HOCKEY(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "K. VINOD– 20671A0117 -  CIVIL- 3/4 Participated in HOCKEY(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
             {
                 url: "/Nat-14.jpg",
-                caption: "CH. SUBHASH – 20675A0118 -  CIVIL- 4/4 Participated in NETBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
+                caption: "CH. SUBHASH – 20675A0118 -  CIVIL- 4/4 Participated in NETBALL(Men)  got Selected to the Nationals for Team Player in JNT UNIVERSITY HYDERABAD."
             },
         ]
     },

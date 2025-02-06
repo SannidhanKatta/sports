@@ -21,18 +21,11 @@ export const ImagesSlider = ({
     direction?: "up" | "down";
 }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const img = new Image();
         img.src = images[currentIndex];
         img.onload = () => {
-            setDimensions({
-                width: img.width,
-                height: img.height
-            });
-            setLoading(false);
         };
     }, [currentIndex, images]);
 
