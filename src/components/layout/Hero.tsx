@@ -2,7 +2,7 @@
 
 import { ImagesSlider } from "@/components/ui/images-slider";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
-import { useState } from "react";
+// import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
