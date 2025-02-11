@@ -24,7 +24,7 @@ export default function Navbar() {
                     src="/J.B.INSTITUTIE_OF_ENGINEERING&TECHNOLOGY[1].png"
                     alt="JBIET Header"
                     fill
-                    className="object-contain p-2"
+                    className="object-cover sm:object-contain"
                     priority
                 />
             </div>
