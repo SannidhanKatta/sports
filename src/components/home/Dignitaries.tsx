@@ -31,7 +31,7 @@ const dignitaries = [
     },
     {
         name: "Mr. K. Kranthi Kumar",
-        position: "Assistant Professor",
+        position: "Sports Assistant",
         image: "/Kran.jpg",
         link: "https://www.jbiet.edu.in/category.php?mnlnks=8&catid=105"
     }
