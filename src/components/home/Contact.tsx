@@ -16,7 +16,7 @@ export default function ContactSection() {
                 number: "+91 99087 80670"
             },
             {
-                name: "K. Kranthi Kumar (Assistant Professor)",
+                name: "K. Kranthi Kumar (Sports Assistant)",
                 number: "+91 91334 17900"
             }
         ],

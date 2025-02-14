@@ -28,7 +28,7 @@ const sportsEvents = [
         title: "AARAMBH 25",
         image: "/Aar-card.png",
         description: "JBIET's flagship sports festival that brings together athletic talent from across colleges, fostering competition and sportsmanship.",
-        link: "https://google.com",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSec1H9Vpv2Xhb7KsBB1ZXJcj8ymVY4veW-oMugiQ-VaQB12Ag/viewform",
         hasBrochure: true,
         brochureLink: "/aarambh -brochure.png"
     },
@@ -36,7 +36,7 @@ const sportsEvents = [
         title: "BHASKAR MEMORIAL CUP - 2025",
         image: "/JBcup-card.jpg",
         description: "An inter-institute sports championship where JBIET Group institutions compete in various sports disciplines for the prestigious JB Cup.",
-        link: "https://google.com",
+        link: "/JB cup- Brochure.png",
         hasBrochure: true,
         brochureLink: "/JB cup- Brochure.png"
     }
@@ -61,17 +61,17 @@ const EventCard = ({ event }: { event: typeof sportsEvents[0] }) => (
             </p>
             <div className="flex justify-between items-center">
                 <Link href={event.link}>
-                    {event.title.includes("AARAMBH") || event.title.includes("BHASKAR MEMORIAL") ? (
-                        <ShimmerButton>
-                            Register Now
+                    {event.title === "BHASKAR MEMORIAL CUP - 2025" ? (
+                        <ShimmerButton className="bg-emerald-600 hover:bg-emerald-700">
+                            View Brochure
                         </ShimmerButton>
                     ) : (
                         <ShimmerButton>
-                            View Gallery
+                            {event.title.includes("AARAMBH") ? "Register Now" : "View Gallery"}
                         </ShimmerButton>
                     )}
                 </Link>
-                {event.hasBrochure && event.brochureLink && (
+                {event.hasBrochure && event.brochureLink && event.title !== "BHASKAR MEMORIAL CUP - 2025" && (
                     <Link href={event.brochureLink} target="_blank">
                         <ShimmerButton className="bg-emerald-600 hover:bg-emerald-700">
                             View Brochure
